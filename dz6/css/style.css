@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+}
+
+.header{
+	font-family: 'Audiowide', cursive;
+	color: white;
+	background:url(img/header__bg_gris.png) no-repeat,
+			   url(img/header__bg.png) no-repeat; 
+	height: 60px;
+	width: 100%;
+	background-size: 100%;
+	display: flex;
+}
+.header__logo_link{
+	text-decoration: none;
+}
+.header__logo{
+	margin-left: 240px;
+	width: 60px;
+	height: 60px;
+	background: url(img/header__logo_bg.png) no-repeat;
+	float: left;
+}
+.header__logo9 {
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+.header__logo10 {
+    position: relative;
+    top: 5px;
+    left: 22px;
+}
+.header__logo10-copy {
+    position: relative;
+    left: 8px;
+    top: 5px;
+}
+.header__logo11 {
+    position: relative;
+    top: 12px;
+    left: -8px;
+}
+.header__logo11-copy {
+    position: relative;
+    top: 17px;
+    left: -17px;
+}
+.header__logo12 {
+    position: relative;
+    left: -19px;
+    top: -8px;
+}
+.header__space{
+    margin-left: 320px;
+    padding-top: 20px;
+    color: white;
+}
+.heder_menu-ul{
+	display: inline-block;
+}
+.header__menu_item {
+    display: inline-block;
+    padding-top: 4px;
+    padding-left: 57px;
+}
+.soyuz{
+	background: url(img/souyz__bg.png) no-repeat;
+	background-size: 100%;
+
+}
+.soyuz__sputnik_img{
+	margin-left: 225px;
+    margin-top: 58px;
+}
+.soyuz__title{
+	margin-left: 0
+}
