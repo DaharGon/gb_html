@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-family: 'Audiowide', cursive;
 }
 
 .header{
@@ -75,5 +76,24 @@ body{
     margin-top: 58px;
 }
 .soyuz__title{
-	margin-left: 0
+	position: relative;
+    left: 731px;
+    top: -392px;
+    color: white;
+}
+.soyuz__title-text{
+	position: relative;
+	left: 769px;
+    top: -392px;
+    color: white;
+}
+.soyuz__button {
+    position: relative;
+    left: 791px;
+    top: -369px;
+    width: 135px;
+    height: 40px;
+    background: black;
+    color: white;
+    border: none;
 }
