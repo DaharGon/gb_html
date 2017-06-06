@@ -210,3 +210,23 @@ body{
 .latest-blog__new{
 	margin-top: 78px;
 }
+.footer__follow{
+	background: #a3a3a3
+}
+.footer__follow_text {
+    color: white;
+    display: inline-block;
+    margin-left: 518px;
+    padding-top: 21px;
+    float: left;
+    margin-right: 86px;
+}
+.footer__social-item{
+	padding: 10px;
+}
+.footer__copy{
+	background: white;
+	color: black;
+	padding: 30px;
+	text-align: center;
+}
