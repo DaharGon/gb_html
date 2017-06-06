@@ -64,7 +64,7 @@ body{
 .header__menu_item {
     display: inline-block;
     padding-top: 4px;
-    padding-left: 57px;
+    padding-left: 43px;
 }
 .soyuz{
 	background: url(img/souyz__bg.png) no-repeat;
@@ -118,4 +118,95 @@ body{
 }
 .fetured__images{
 	display: flex;
+}
+.mission {
+    background: url(img/mission__bg.png);
+    position: relative;
+    top: -119px;
+}
+.mission__title{
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+}
+.mission__text {
+    color: white;
+    display: block;
+    width: 50%;
+    padding-left: 335px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: small;
+}
+.mission__text_link{
+	color: white;
+}
+.video-blog{
+	background: black;
+	margin-top: -139px;
+	display: flex;
+}
+.featured-video{
+	float: left;
+	width: 33%;
+    position: relative;
+    left: 227px;
+}
+.featured-video__title{
+	color: white;
+    text-align: left;
+    padding-top: 20px;
+}
+.feat-video__video{
+	background: url(img/feat-video__bg.png) no-repeat;
+}
+.featured-video__image{
+	opacity: 0.5;
+}
+.featured-video__image_but {
+    position: relative;
+    left: 200px;
+    top: -161px;
+}
+.latest-blog {
+    width: 33%;
+    position: relative;
+    margin-left: 215px;
+}
+.latest-blog__title{
+	color: white;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.latest-blog__finding{
+	
+}
+
+
+.latest-blog__image {
+    padding-left: 0;
+    float: left;
+    padding-right: 21px;
+}
+.latest-blog_title{
+	color: #a3a3a3;
+	margin-left: 10px;
+}
+.latest-blog__text{
+	color: white;
+	margin-top: -10px;
+    font-size: small;
+}
+.latest-blog__but {
+    position: relative;
+    background: purple;
+    color: white;
+    border: none;
+    left: 210px;
+    padding: 6px;
+}
+
+.latest-blog__new{
+	margin-top: 78px;
 }
